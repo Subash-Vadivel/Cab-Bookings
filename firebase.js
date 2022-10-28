@@ -33,7 +33,7 @@ else
 {
     app=firebase.app();
 }
-
+export const db=app.firestore();
 const auth=firebase.auth();
 
 export {auth};
